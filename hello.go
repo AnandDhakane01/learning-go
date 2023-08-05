@@ -1,6 +1,5 @@
 package learninggo
 
-import "fmt"
 
 const englishHelloPrefix = "Hello, "
 const spanish = "Spanish"
@@ -28,6 +27,6 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
-func main() {
-	fmt.Println(Hello("World", ""))
-}
+// func main() {
+// 	fmt.Println(Hello("World", ""))
+// }
